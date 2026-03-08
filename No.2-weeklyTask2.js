@@ -6,6 +6,6 @@ function buatRentang(mulai, selesai){
     for(let i = mulai;i <= selesai;i++){
         hasilRentang.push(i);
     }
-    return hasilRentang.join(",");
+    return hasilRentang.join(", ");
 }
 console.log(buatRentang(1, 5))
